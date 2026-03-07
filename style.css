@@ -17,8 +17,8 @@ body-2{
 }
 
 #logContainer{
-width: 60vw;
-height: 50vw;
+width: 50vw;
+height: 100%;
 border-width: 5px;
 margin-top: 2vh;
 margin-bottom: 2vh;
