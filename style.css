@@ -41,7 +41,7 @@ body-2 {
 }
 
 #logContainer {
-  width: 50vw;
+  width: 100vw;
   height: 80vh;
   border-width: 5px;
   margin-top: 2vh;
@@ -134,25 +134,6 @@ h2 {
 
 }
 
-#logsButtonHolder {
-  width: 30vw;
-  border-width: 5px;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  background-color: #009ade;
-  padding: 2vw;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 0px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 0px rgba(0, 0, 0, 0);
-
-}
-
 #side {
   width: 40%;
   display: flex;
@@ -189,11 +170,6 @@ h2 {
     min-height: 80vh;
   }
 
-  #logsButtonHolder {
-    margin-right: 2vw;
-    min-height: 80vh;
-  }
-
   .subjectButton {
     width: 20vw;
     height: 10vw;
@@ -209,11 +185,6 @@ h2 {
   }
 
   #mainButtonHolder {
-    width: 80vw;
-    height: auto;
-  }
-
-  #logsButtonHolder {
     width: 80vw;
     height: auto;
   }
